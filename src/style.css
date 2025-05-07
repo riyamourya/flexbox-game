@@ -1,0 +1,84 @@
+body {
+  background-color: #000;
+  color: #0ff;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  background: #111;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px #0ff;
+  text-align: center;
+  width: 500px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.instruction {
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.playground {
+  border: 2px dashed #0ff;
+  margin: 15px 0;
+  padding: 10px;
+  min-height: 150px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.box {
+  background-color: #0ff;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.css-input {
+  padding: 10px;
+  border: 2px solid #0ff;
+  background-color: #000;
+  color: #0ff;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #0ff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hint {
+  margin-top: 10px;
+  color: #ff0;
+}
